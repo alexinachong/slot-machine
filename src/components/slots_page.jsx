@@ -104,7 +104,7 @@ class SlotsPage extends React.Component {
   displayReels(reel) {
     return (
       reel.map(el => (
-        <span className="individual-reel">{el}</span>
+        <div className="individual-reel">{el}</div>
         ))
     );
   }
