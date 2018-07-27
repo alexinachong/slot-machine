@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Calibri', sans-serif;
-  background-color: #eeeeee;
+  background-color: #8E388E;
 }
 
 .slots-page {
@@ -13,7 +13,7 @@ body {
 }
 
 .reels-display {
-  margin: 0 auto;
+  margin: 40px;
   background: #fceabb;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to bottom right, #f8b500, #fceabb);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to bottom right, #f8b500, #fceabb); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -33,6 +33,14 @@ body {
   border-radius: 3px;
   font-size: 1.25em;
   font-weight: bold;
+  background-color: #fad05e;
+  border: #f8b500;
+  transition: all 0.3s;
+  color: #EE0000;
+}
+
+.spin-button:hover {
+  background-color: #f8b500;
 }
 
 .individual-reel {
