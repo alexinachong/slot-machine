@@ -14,10 +14,13 @@ body {
 
 .reels-display {
   margin: 0 auto;
-  background-color: #ffffff;
+  background: #fceabb;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom right, #f8b500, #fceabb);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom right, #f8b500, #fceabb); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   width: 200px;
   padding: 20px;
   font-size: 2em;
+  font-weight: bold;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -33,7 +36,9 @@ body {
 }
 
 .individual-reel {
-  border: 1px solid green;
+  border: 3px solid #f8b500;
+  background-color: #ffffff;
+  color: #EE0000;
   width: 30px;
   padding: 10px;
 }
