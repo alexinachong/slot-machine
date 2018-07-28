@@ -112,7 +112,9 @@ class SlotsPage extends React.Component {
   render() {
     return (
       <div className="slots-page">
-        <h1 className="jackpot-header">JACKPOT</h1>
+        <div className="jackpot-header-container">
+          <h1 className="jackpot-header">JACKPOT</h1>
+        </div>
         <div className="reels-display">{this.displayReels(this.state.reels)}</div>
 
         <button onClick={this.spin} className="spin-button">Spin!</button>
