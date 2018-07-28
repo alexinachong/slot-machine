@@ -13,16 +13,22 @@ body {
   border: 3px solid #971c28;
   border-radius: 5px;
   width: 400px;
-  margin: 0 auto;
+  margin: 40px auto;
   background-color: #C82536;
 }
 
+.jackpot-header {
+  width: 240px;
+  background-color: #fad05e;
+}
+
 .reels-display {
-  margin: 40px;
+  margin: 20px;
   background: #fceabb;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to bottom right, #f8b500, #fceabb);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to bottom right, #f8b500, #fceabb); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   width: 200px;
+  height: 100px;
   padding: 20px;
   font-size: 2em;
   font-weight: bold;
@@ -53,5 +59,6 @@ body {
   background-color: #ffffff;
   color: #C82536;
   width: 30px;
+  height: 40px;
   padding: 10px;
 }

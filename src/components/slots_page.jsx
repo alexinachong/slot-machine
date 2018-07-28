@@ -5,7 +5,7 @@ class SlotsPage extends React.Component {
     super(props);
 
     this.state = {
-      reels: [],
+      reels: ["", "", ""],
       payoutTotal: 0
     };
 
@@ -112,7 +112,7 @@ class SlotsPage extends React.Component {
   render() {
     return (
       <div className="slots-page">
-        <h1>JACKPOT</h1>
+        <h1 className="jackpot-header">JACKPOT</h1>
         <div className="reels-display">{this.displayReels(this.state.reels)}</div>
 
         <button onClick={this.spin} className="spin-button">Spin!</button>
