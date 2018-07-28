@@ -10,6 +10,11 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  border: 3px solid #971c28;
+  border-radius: 5px;
+  width: 400px;
+  margin: 0 auto;
+  background-color: #C82536;
 }
 
 .reels-display {
@@ -36,7 +41,7 @@ body {
   background-color: #fad05e;
   border: #f8b500;
   transition: all 0.3s;
-  color: #EE0000;
+  color: #C82536;
 }
 
 .spin-button:hover {
@@ -46,7 +51,7 @@ body {
 .individual-reel {
   border: 3px solid #f8b500;
   background-color: #ffffff;
-  color: #EE0000;
+  color: #C82536;
   width: 30px;
   padding: 10px;
 }
