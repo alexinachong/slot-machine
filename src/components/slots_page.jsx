@@ -120,9 +120,9 @@ class SlotsPage extends React.Component {
         <button onClick={this.spin} className="spin-button">Spin!</button>
 
         <div className="payout-container">
-          <p>Payout: {this.state.payoutTotal}</p>
+          <p>Payout: <strong>{this.state.payoutTotal}</strong></p>
 
-          <p>Average Payout: ~{Math.round(this.getAverageWin() * 100) / 100}</p>
+          <p><em>Average Payout: ~{Math.round(this.getAverageWin() * 100) / 100}</em></p>
         </div>
 
       </div>
