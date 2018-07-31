@@ -25,6 +25,7 @@ body {
   height: 50px;
   width: 240px;
   background-color: #fad05e;
+  border-radius: 2px;
 }
 
 .jackpot-header {
@@ -60,6 +61,7 @@ body {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  border-radius: 2px;
 }
 
 .spin-button {
